@@ -1,0 +1,56 @@
+body > main {
+    margin: 40px;
+   padding: 60px;
+   color: rgb(56, 55, 55);
+   border-top: 5px solid rgb(56, 55, 55);
+   background-color: rgb(209, 207, 207);
+   opacity: .6;
+}
+main > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main > header >div>p{
+    font-style: italic;
+}
+p {
+    font-size: 30px;
+}
+header > div h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+div a {
+    color: red;
+    font-size: 25px;
+}
+div:nth-child(2) > p:nth-child(1) {
+    padding:5px 10px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+section {
+    display: flex;
+    justify-content:space-between;
+}
+section p {
+    margin-right: 70px;
+}
+section div {
+    display: flex;
+}
+section div >header h2 {
+    font-weight: 500;
+}
+section div >header p {
+    font-size: 20px;
+}
+table {
+    font-size: 25px;
+    color: gray;
+}
+tr:nth-child(2) td {
+    border-bottom: 1px solid rgb(160, 157, 157);
+    border-top: 1px solid rgb(160, 157, 157);
+}
